@@ -5,9 +5,9 @@
 //Number Variable
 
 
-var yrsHooman = prompt("Enter the degrees in Fahrenheit", 50);
+var yrsHuman = prompt("Enter your age", 28);
 var yrsDog;
 
-yrsDog = 5/9 * (degFahren -32);
+yrsDog = (yrsHuman) / 7;
 
-alert(yrsHooman + "\xB0 Fahrenheit is " + yrsDog + "\xB0 centigrade")
+alert(yrsHuman + " Human Years " + yrsDog + " Dog Years")
