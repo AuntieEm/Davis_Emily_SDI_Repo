@@ -34,11 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Davis_Emily_Output_Assignment/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="585">
-              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.6431853" vertical-offset="0" max-vertical-offset="653">
+              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Number Variable.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Davis_Emily_Output_Assignment/html/Number Variable.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="510">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -47,14 +57,9 @@
       <file leaf-file-name="string variable.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Davis_Emily_Output_Assignment/html/string variable.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="510">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-              <folding>
-                <marker date="1425620517000" expanded="true" signature="4:73" placeholder="..." />
-                <marker date="1425620517000" expanded="true" signature="135:720" placeholder="..." />
-                <marker date="1425620517000" expanded="true" signature="437:693" placeholder="..." />
-                <marker date="1425620517000" expanded="true" signature="572:666" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="510">
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,17 +68,17 @@
         <entry file="file://$PROJECT_DIR$/Davis_Emily_Output_Assignment/js/string script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="number script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="number script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Davis_Emily_Output_Assignment/js/number script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06646972" vertical-offset="0" max-vertical-offset="677">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <caret line="11" column="60" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="60" />
               <folding>
                 <element signature="e#0#38#0" expanded="false" />
               </folding>
@@ -101,8 +106,10 @@
         <option value="$PROJECT_DIR$/Davis_Emily_Output_Assignment/js/boolean script.js" />
         <option value="$PROJECT_DIR$/Davis_Emily_Output_Assignment/js/string script.js" />
         <option value="$PROJECT_DIR$/Davis_Emily_Output_Assignment/string variable.html" />
-        <option value="$PROJECT_DIR$/Davis_Emily_Output_Assignment/index.html" />
         <option value="$PROJECT_DIR$/Davis_Emily_Output_Assignment/js/number script.js" />
+        <option value="$PROJECT_DIR$/Davis_Emily_Output_Assignment/html/string variable.html" />
+        <option value="$PROJECT_DIR$/Davis_Emily_Output_Assignment/html/Number Variable.html" />
+        <option value="$PROJECT_DIR$/Davis_Emily_Output_Assignment/index.html" />
       </list>
     </option>
   </component>
@@ -110,8 +117,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="137" />
-    <option name="y" value="65" />
+    <option name="x" value="313" />
+    <option name="y" value="31" />
     <option name="width" value="1217" />
     <option name="height" value="823" />
   </component>
@@ -206,24 +213,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Davis_Emily_Output_Assignment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CSS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Davis_Emily_SDI_Repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Davis_Emily_SDI_Repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Davis_Emily_FlowchartAssignment" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -301,7 +290,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="137" y="65" width="1217" height="823" extended-state="0" />
+    <frame x="313" y="31" width="1217" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -361,42 +350,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Davis_Emily_Output_Assignment/js/number script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Davis_Emily_Output_Assignment/js/string script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Davis_Emily_Output_Assignment/html/string variable.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="510">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <marker date="1425620517000" expanded="true" signature="4:73" placeholder="..." />
-            <marker date="1425620517000" expanded="true" signature="135:720" placeholder="..." />
-            <marker date="1425620517000" expanded="true" signature="437:693" placeholder="..." />
-            <marker date="1425620517000" expanded="true" signature="572:666" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="510">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Davis_Emily_Output_Assignment/html/Number Variable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="510">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Davis_Emily_Output_Assignment/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="585">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.6431853" vertical-offset="0" max-vertical-offset="653">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Davis_Emily_Output_Assignment/js/number script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06646972" vertical-offset="0" max-vertical-offset="677">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
