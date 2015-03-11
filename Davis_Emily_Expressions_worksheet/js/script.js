@@ -7,5 +7,5 @@ var dogYears = 7; //7 dog years to 1 human year
 var sparkyAge = prompt("How old is Sparky in human years?"); //prompts user to provide a number.
 var result = sparkyAge * dogYears; //calculates how old sparky is.
 
-console.log("Sparky is " + result + " " + "years old in dog years.");
+console.log("Sparky is " + sparkyAge + " " + "in human years. Whis is " + result + " " + "in dog years.");
 
