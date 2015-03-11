@@ -32,8 +32,9 @@ var total = (subTotal + zoneCost) - (discount); //calculates the total cost
 
 console.log("My client lives in Zone " + zoneNum + ".");
 console.log("She has " + dogNum + " " + "dogs and " + catNum + " " + "cats.");
+console.log("My prices are: $" + dogCost + " " + "per dog per day and $" + catCost + " " + "per cat per day.");
 console.log ("She needs my services for " + nightsNum + " " + "nights.");
 console.log("Her subtotal for this service is $" + subTotal + ".");
 console.log("Because she lives in Zone " + zoneNum + " " + ", she will be charged 10% extra. Which is an extra $" + zoneCost + ".");
-
-
+console.log("She also qualfies for the 'Book 7 nights and get 1 free' discount. Which is $" + discount + " " + " off.");
+console.log("Her total cost now is $ " + total + ".");
