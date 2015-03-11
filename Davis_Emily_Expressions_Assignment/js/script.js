@@ -1,5 +1,6 @@
 /*
 Emily Davis
+March 11, 2015
 Scalable Data Infrastructures
 Expressions Assignments
  */
@@ -41,7 +42,7 @@ c *= Number(catNum); // calculates for $10 per night for 1 cat.
 
 console.log("My client lives in Zone " + zoneNum + ".");
 //states which zone my client lives in.
-console.log("She has " + dogNum + " " + "dogs and " + catNum + " " + "cats.");
+console.log("She has " + dogNum + " " + "dogs and " + catNum + " " + "cat.");
 //states how many cats and dogs my client has.
 console.log("It will cost $" + d + " " + "per day for the dogs.");
 //states how much it will be for the dogs per day.
