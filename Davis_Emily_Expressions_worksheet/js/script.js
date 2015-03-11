@@ -3,18 +3,18 @@
  */
 //Dog Years
 
-/*
+
 var dogYears = 7; //7 dog years to 1 human year
 var sparkyAge = prompt("How old is Sparky in human years?"); //prompts user to provide a number.
 var result = sparkyAge * dogYears; //calculates how old sparky is.
 
 console.log("Sparky is " + sparkyAge + " " + "in human years. Which is " + result + " " + "in dog years.");
-*/
+
 
 
 //Slice of Pie part 1
 
-/*
+
 var peopleAtParty = prompt ("How many people are attending the party?");
 var pizzaOrdered = prompt ("How many pizzas did you order?");
 var slicePerPizza = prompt ("How many slices is each pizza divided up into?");
@@ -30,10 +30,10 @@ console.log("Each person ate" + " " + result + " " + "slices of pizza at the par
 var sparkyNom = (slicePerPizza * pizzaOrdered) % peopleAtParty;
 
 console.log("Sparky got " + sparkyNom + " " + "slices of pizza.");
-*/
+
 
 //Average shopping bill
-/*
+
 var weak1 = prompt ("How much did you spend on groceries 5 weeks ago?")
 var weak2 = prompt ("4 weeks ago?");
 var weak3 = prompt ("3 weeks ago?");
@@ -47,7 +47,7 @@ var average = total / 5;
 
 console.log("You have spent a total of $" + total + " " + "on groceries over 5 weeks.")
 console.log("That is an average of $" + average + " " + "per week.");
-*/
+
 
 //Discounts
 
