@@ -49,4 +49,18 @@ console.log("You have spent a total of $" + total + " " + "on groceries over 5 w
 console.log("That is an average of $" + average + " " + "per week.");
 */
 
+//Discounts
+
+var itemName = prompt ("What are you trying to buy?");
+var itemCost = prompt ("What is the price listed on the shelf at the store?");
+var discount = prompt ("What is the discount advertized?");
+var salesTax = prompt ("How much is the sales tax in your area?");
+var discountResult = (Number(itemCost) - (Number(itemCost) * (Number(discount) / 100)));
+var salesTaxResult = (Number(discountResult) * (Number(salesTax) / 100) + Number(discountResult));
+
+
+
+console.log("Your " + itemName + " " + " was originally $" + itemCost + ".");
+console.log("After a " + discount  + "% discount, it is now $" + discountResult + " " + "without tax.");
+console.log("Your item will cost $" + salesTaxResult + " " + "after sales tax is applied." );
 
