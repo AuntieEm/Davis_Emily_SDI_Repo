@@ -12,10 +12,10 @@ var catCost = 10;   //per cat per day
 
 //prompted variables
 
-var zoneNum = prompt ("According to the Zones page on my website \nwhich zone do you live in?"); //user input for thier zone each zone has a different upcharge.
-var dogNum = prompt ("How many dogs do you have?"); //user input for how many dogs they have.
-var catNum = prompt ("How many cats do you have?");  //user input for how many cats they have.
-var nightsNum = prompt ("How many nights do you need me to stay?"); //user input for how many nights they need to reserve.
+var zoneNum = prompt ("According to the Zones page on my website \nwhich zone do you live in?", 3); //user input for thier zone each zone has a different upcharge.
+var dogNum = prompt ("How many dogs do you have?", 3); //user input for how many dogs they have.
+var catNum = prompt ("How many cats do you have?", 1);  //user input for how many cats they have.
+var nightsNum = prompt ("How many nights do you need me to stay?", 13); //user input for how many nights they need to reserve.
 
 //calculated prompted variables
 
@@ -33,4 +33,7 @@ var total = (subTotal + zoneCost) - (discount); //calculates the total cost
 console.log("My client lives in Zone " + zoneNum + ".");
 console.log("She has " + dogNum + " " + "dogs and " + catNum + " " + "cats.");
 console.log ("She needs my services for " + nightsNum + " " + "nights.");
+console.log("Her subtotal for this service is $" + subTotal + ".");
+console.log("Because she lives in Zone " + zoneNum + " " + ", she will be charged 10% extra. Which is an extra $" + zoneCost + ".");
+
 
