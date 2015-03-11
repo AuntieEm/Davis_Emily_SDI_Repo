@@ -18,7 +18,7 @@ var zoneNum = prompt ("According to the Zones page on my website \nwhich zone do
 var dogNum = prompt ("How many dogs do you have?", 3); //user input for how many dogs they have.
 var catNum = prompt ("How many cats do you have?", 1);  //user input for how many cats they have.
 var nightsNum = prompt ("How many nights do you need me to stay?", 13); //user input for how many nights they need to reserve.
-
+var animals = ["dogs", "cats", "birds", "hedgehogs"]//the different types of animals that I know how to take care of.
 //calculated prompted variables
 
 
@@ -42,6 +42,8 @@ c *= Number(catNum); // calculates for $10 per night for 1 cat.
 
 console.log("My client lives in Zone " + zoneNum + ".");
 //states which zone my client lives in.
+console.log("I take care of all sorts of animals. One of them is " + animals[0] + ".");
+//Names one of the types of animals that I can take care of.
 console.log("She has " + dogNum + " " + "dogs and " + catNum + " " + "cat.");
 //states how many cats and dogs my client has.
 console.log("It will cost $" + d + " " + "per day for the dogs.");
