@@ -39,20 +39,7 @@ catPerson = confirm("Are you a cat person? Click Okay for true and cancel for fa
 
 //boolean conditional & outputs
 if (catPerson === true) {
-    var cats = prompt("How many cats do you have?");
-        if(cats === ""){
-            cats = prompt("You did not tell me how many cats you have.");
-        }
-   if(cats >= 1) {
-       console.log("I'm sorry. I don't pet sit for cats. Not unless they are outdoor cats.");
-       catType = prompt("Are they outdoor cats? Yes or no?");
-       if( catType === ""){
-           catType = prompt("Well, are they outdoor cats or not? Yes or no?");
-       }else if (catType = "yes"){
-           console.log("Then in that case your total will be $" + (cats * catOutdoor * days) + ".");
-       }
-        }
-
+       console.log("I'm sorry. I don't pet sit for cats.");
 }else{
     console.log("Well, okay then...")}
 
@@ -90,6 +77,7 @@ if (dogPerson === true) {
         if (under40 === "") {
             under40 = prompt("You forgot to tell me how many of them weigh under 40 pounds.");
         }
+        under40 = Number(under40);
         if (under40 >= 1) {
             under40 = under40 * dogUnder40 * days;
             console.log("It will cost $" + under40 + " for your dogs that weigh under 40 pounds.")
@@ -102,11 +90,22 @@ if (dogPerson === true) {
 
 
 
+console.log("We have a special discount for people who book us for 7 or more days.");
+
+var total = under40 + over40;
+
+if(days >= 7 && dogs >= 1){
+    console.log("Congratz! Because you booked us for " + days + " days and you have " + dogs + " dogs, you get our special discount!");
+}else{
+    console.log("No discount for you.");
+}
+
+
 
 
 
 // TODO validate all prompts
+//todo else if
 //todo (* & +) (/ & *)
 //todo ternary
-// todo &&
 //todo comments
