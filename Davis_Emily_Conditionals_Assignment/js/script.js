@@ -92,11 +92,23 @@ if (dogPerson === true) {
 
 console.log("We have a special discount for people who book us for 7 or more days.");
 
-var total = under40 + over40;
+(days > 7) ? console.log("You get our discount!") : console.log("You did not book enough days to earn the discount.");
 
-if(days >= 7 && dogs >= 1){
+var total = under40 + over40;
+var weekDiscount = ((days / 7) * (total / days));
+weekDiscount = Number(weekDiscount);
+var newTotal = (total - weekDiscount);
+newTotal = Number(newTotal);
+
+if (days >= 7 && dogs >= 1){
     console.log("Congratz! Because you booked us for " + days + " days and you have " + dogs + " dogs, you get our special discount!");
-}else{
+    console.log("You've earned a discount of $" + weekDiscount + ".");
+    console.log("You're new total is $" + newTotal + ".");
+
+}else if (dogs >= 9){
+    console.log("Because you booked us to take care of " + dogs + " dogs, you get 10% off your total. Discounts do not combine.");
+    console.log("You're new total is $" + (total - (total * 10 / 100)) + ".");
+} else{
     console.log("No discount for you.");
 }
 
@@ -104,8 +116,5 @@ if(days >= 7 && dogs >= 1){
 
 
 
-// TODO validate all prompts
-//todo else if
-//todo (* & +) (/ & *)
-//todo ternary
 //todo comments
+//todo flow chart
