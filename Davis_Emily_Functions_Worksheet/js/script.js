@@ -42,5 +42,8 @@ var victimWeight = prompt("Enter a weight in pounds.");
 victimWeight = Number(victimWeight);
 var beeStings = 8.666667
 var death = calculateDeathByBees(victimWeight, beeStings);
-    
+console.log("It takes " + death + " bee stings to kill this animal.");
 
+function calculateDeathByBees(v, b) {
+    return Math.round(victimWeight * beeStings);
+}
