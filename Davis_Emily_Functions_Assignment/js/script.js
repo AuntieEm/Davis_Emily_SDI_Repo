@@ -21,8 +21,7 @@ function lotteryValidation(choice)  {   //call new function to validate lottery 
         timesClicked++; //each time "OK" is clicked...
 
         if (timesClicked === 2)    {    //conditional  if "ok" is clicked twice with out any user input then...
-            console.log("Since you can't make a decision, I shall choose for you.");    //print to console a choice has been made for you
-            console.log("You're playing the Florida lottery.");   //print the automatic choice
+            console.log("Since you can't make a decision, I shall choose for you. You're playing the Florida lottery.");    //print to console a choice has been made for you
             break;  // ends loop after 2 clicks
         }
 
@@ -64,7 +63,7 @@ pbLottery = randomPbNumGen(1, 59, 5);   //the variable will use the above functi
 
 
 //Powerball powerball function
-function randomPbPbNumGen(min, max, num) {  //call new function to generate random numbers for the powerball's powerball
+function randomPbPbNumGen(min, max) {  //call new function to generate random numbers for the powerball's powerball
 
     var powerBallPbLottery = Math.round(Math.random() * (max - min) + min); //the variable will generate a random number using the parameters min and max
 
