@@ -23,7 +23,7 @@ Functions Assignment
 console.log("Welcome to the Lottery!"); //intro line
 
 
-var lotteryChoice = prompt("Which lottery would you like to play?\n\nThe Florida Lottery or the Powerball?");   //prompt user for a lottery choice.
+var lotteryChoice = prompt("Which lottery would you like to play?\n\nThe Florida Lottery or the Powerball?", "Florida");   //prompt user for a lottery choice.
 
 
 function lotteryValidation(choice)  {   //call new function to validate lottery choice prompt only 1 argument
@@ -36,7 +36,7 @@ function lotteryValidation(choice)  {   //call new function to validate lottery 
 
         if (timesClicked === 2)    {    //conditional  if "ok" is clicked twice with out any user input then...
             console.log("Since you can't make a decision, I shall choose for you.");    //print to console a choice has been made for you
-            console.log("You're playing the powerball.");   //print the automatic choice
+            console.log("You're playing the Florida lottery.");   //print the automatic choice
             break;  // ends loop after 2 clicks
         }
 
@@ -45,6 +45,8 @@ function lotteryValidation(choice)  {   //call new function to validate lottery 
 }
 
 lotteryChoice = lotteryValidation(lotteryChoice);   // sends the value of lotteryChoice to value of lotteryValidation
+
+console.log("So, I see you've chosen to play the " + lotteryChoice + " lottery. Let's get started then.");
 
 
 
