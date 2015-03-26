@@ -70,12 +70,12 @@ function randomPbPbNumGen(min, max, num) {  //call new function to generate rand
 
     return powerBallPbLottery;  //return the variable powerBallPbLottery to the main code.
 }
-pbLotteryPb = randomPbNumGen(1, 35, 1); //the variable will use the above function to generate 5 numbers between 1 & 59.
+pbLotteryPb = randomPbPbNumGen(1, 35, 1); //the variable will use the above function to generate 5 numbers between 1 & 59.
 
 
 /*-------------------- OUTPUT --------------------*/
 
 
 console.log("So, I see you've chosen to play the " + lotteryChoice + " lottery.");  // print choice the user made.
-(lotteryChoice === "Florida") ? console.log("Florida lottery numbers are..." + flLottery) : console.log("Powerball lottery numbers are..." + pbLottery + "And the powerball is..." + pbLotteryPb);
+(lotteryChoice === "Florida") ? console.log("Florida lottery numbers are... " + flLottery + ".") : console.log("Powerball lottery numbers are... " + pbLottery + ". And the powerball is..." + pbLotteryPb + ".");
 //ternary to decide which function to run depending on the input the user made as to which lottery they would like to play.
