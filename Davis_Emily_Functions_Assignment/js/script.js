@@ -24,6 +24,10 @@ console.log("Welcome to the Lottery!"); //intro line
 
 
 var lotteryChoice = prompt("Which lottery would you like to play?\n\nThe Florida Lottery or the Powerball?", "Florida");   //prompt user for a lottery choice.
+var flLottery;
+//var pbLottery;
+//var pbLotteryPB;
+
 
 
 function lotteryValidation(choice)  {   //call new function to validate lottery choice prompt only 1 argument
@@ -45,8 +49,55 @@ function lotteryValidation(choice)  {   //call new function to validate lottery 
 }
 
 lotteryChoice = lotteryValidation(lotteryChoice);   // sends the value of lotteryChoice to value of lotteryValidation
+console.log("So, I see you've chosen to play the " + lotteryChoice + " lottery.");  // print choice the user made.
 
-console.log("So, I see you've chosen to play the " + lotteryChoice + " lottery. Let's get started then.");
+
+//functions
+
+function randomFlNumGen(min, max, num) {
+
+    var floridaArray = [];
+    for (var f = 0; f < num; f++) {
+
+        var floridaLottery = Math.round(Math.random() * (max - min) + min);
+        floridaArray[f] = floridaLottery;
+    }
+
+    return floridaArray;
+}
+flLottery = randomFlNumGen(1, 53, 5);
+console.log(flLottery);
+
+
+
+function randomPbNumGen(min, max, num) {
+
+    var powerBallArray = [];
+    for (var pb = 0; pb < num; pb f++) {
+
+        var powerBallLottery = Math.round(Math.random() * (max - min) + min);
+        powerBallArray[pb] = powerBallLottery;
+    }
+
+    return powerBallArray;
+}
+pbLottery = randomPbNumGen(1, 59, 5);
+console.log(pbLottery);
+
+/*
+
+if (lotteryChoice = "Florida") {
+
+
+
+} else {
+
+
+}
+
+*/
+
+
 
 
 
