@@ -52,21 +52,36 @@ lotteryChoice = lotteryValidation(lotteryChoice);   // sends the value of lotter
 console.log("So, I see you've chosen to play the " + lotteryChoice + " lottery.");  // print choice the user made.
 
 
-//Florida Lottery Function
 
-function randomFlNumGen(min, max, num) {
 
-    var floridaArray = [];
-    for (var f = 0; f < num; f++) {
 
-        var floridaLottery = Math.round(Math.random() * (max - min) + min);
-        floridaArray[f] = floridaLottery;
+
+
+
+
+
+
+
+
+    //Florida Lottery Function
+
+    function randomFlNumGen(min, max, num) {
+
+        var floridaArray = [];
+        for (var f = 0; f < num; f++) {
+
+            var floridaLottery = Math.round(Math.random() * (max - min) + min);
+            floridaArray[f] = floridaLottery;
+        }
+
+        return floridaArray;
     }
+    flLottery = randomFlNumGen(1, 53, 5);
+   // console.log("Florida lottery numbers are..." + flLottery);
 
-    return floridaArray;
-}
-flLottery = randomFlNumGen(1, 53, 5);
-console.log(flLottery);
+
+
+
 
 
 
@@ -83,7 +98,7 @@ function randomPbNumGen(min, max, num) {
     return powerBallArray;
 }
 pbLottery = randomPbNumGen(1, 53, 5);
-console.log(pbLottery);
+//console.log("Powerball lottery numbers are..." + pbLottery);
 
 
 //Powerball powerball function
@@ -94,24 +109,8 @@ function randomPbPbNumGen(min, max, num) {
     return powerBallPbLottery;
 }
 pbLotteryPb = randomPbNumGen(1, 35, 1);
-console.log(pbLotteryPb);
-
-
-/*
-
-if (lotteryChoice = "Florida") {
+//console.log("And your powerball number is..." + pbLotteryPb);
 
 
 
-} else {
-
-
-}
-
-*/
-
-
-
-
-
-
+(lotteryChoice === "Florida") ? console.log("Florida lottery numbers are..." + flLottery) : console.log("Powerball lottery numbers are..." + pbLottery + "And the powerball is..." + pbLotteryPb);
